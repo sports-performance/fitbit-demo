@@ -26,19 +26,26 @@ https://docs.google.com/document/d/149YtFyO5k26Z9kgkh6el9sO4TRXkhuSMgwgTZ75BOiA/
 **First, download fitbit_data.py, .env, and fitbit_dashboard to the same folder where steps.py is stored.**
 
 ### Running fitbit_data.py:
-&nbsp;&nbsp;&nbsp;**Step 1:<br>** First be sure that the Python virtual environment where your ran steps.py previously is active.  
+&nbsp;&nbsp;&nbsp;**Step 1:<br>** 
+&nbsp;&nbsp;&nbsp;First be sure that the Python virtual environment where your ran steps.py previously is active.  
 
-&nbsp;&nbsp;&nbsp;**Step 2:<br>** Install python-dotenv by running the following command in a terminal window: pip3 install python-dotenv (pip in Windows)
+&nbsp;&nbsp;&nbsp;**Step 2:<br>** 
+&nbsp;&nbsp;&nbsp;Install python-dotenv by running the following command in a terminal window: pip3 install python-dotenv (pip in Windows)
 
-&nbsp;&nbsp;&nbsp;**Step 3:<br>** Modify the file .env to include your access token (between quotes).  
+&nbsp;&nbsp;&nbsp;**Step 3:<br>** 
+&nbsp;&nbsp;&nbsp;Modify the file .env to include your access token (between quotes).  
 
-&nbsp;&nbsp;&nbsp;**Step 4:<br>** Run the program: python3 fitbit_data.py (python in Windows).  Sample output below.  
+&nbsp;&nbsp;&nbsp;**Step 4:<br>** 
+&nbsp;&nbsp;&nbsp;Run the program: python3 fitbit_data.py (python in Windows).  Sample output below.  
 
 ### Running fitbit_dashboard.py:
-**Step 1:<br>** First be sure that the Python virtual environment where your ran steps.py previously is active.
+&nbsp;&nbsp;&nbsp;**Step 1:<br>** 
+&nbsp;&nbsp;&nbsp;First be sure that the Python virtual environment where your ran steps.py previously is active.
 
-**Step 2:<br>** Install streamlit by typing the following command in a terminal window: pip3 install streamlit (pip in Windows)
+&nbsp;&nbsp;&nbsp;**Step 2:<br>** 
+&nbsp;&nbsp;&nbsp;Install streamlit by typing the following command in a terminal window: pip3 install streamlit (pip in Windows)
 
-**Step 3:<br>** Run the streamlit application by typing the following command in a terminal window: streamlit run fitbit_dashboard.py.  This should spawn a web application in your browser that retrieves your step and heartrate data.  See screenshots below.  If prompted to input a value in the terminal window, just hit Enter.  To terminate the streamlit application, hit Ctrl-C in the terminal window.  
+&nbsp;&nbsp;&nbsp;**Step 3:<br>** 
+&nbsp;&nbsp;&nbsp;Run the streamlit application by typing the following command in a terminal window: streamlit run fitbit_dashboard.py.  This should spawn a web application in your browser that retrieves your step and heartrate data.  See screenshots below.  If prompted to input a value in the terminal window, just hit Enter.  To terminate the streamlit application, hit Ctrl-C in the terminal window.  
 
 ## Screenshots:
