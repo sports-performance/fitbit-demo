@@ -2,12 +2,12 @@
 
 ## File Descriptions:
 
-**get-access-token.py:<br>** 
+**get-access-token.py:** 
 
 This retrieves an access token required to access Fitbit data programmatically.  To run it, you must have already registered a Fitbit application and obtained a Client ID and Secret.  Modify the appropriate section in the file to input these values.  The access token is valid for 8 hours.  Once expired, you may run the script again to get a new code.  You may also obtain an access code through the web interface:  
 https://dev.fitbit.com/build/reference/web-api/troubleshooting-guide/oauth2-tutorial/ 
 
-**steps.py:**
+**steps.py:<br>**
 A minimal demo app that illustrates how to retrieve step data for a week.  You must first update the ACCESS_TOKEN variable.
 
 **fitbit_data.py:**
