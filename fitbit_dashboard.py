@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
 
-# To run: streamlit run fitbit-dashboard.py
+# To run: streamlit run fitbit_dashboard.py
 
 st.title("Imad's Fitbit dashboard")
 
