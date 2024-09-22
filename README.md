@@ -10,7 +10,7 @@ https://dev.fitbit.com/build/reference/web-api/troubleshooting-guide/oauth2-tuto
 A minimal demo app that illustrates how to retrieve step data for a week.  You must first update the ACCESS_TOKEN variable.
 
 **fitbit_data.py:<br>**
-Set of utility functions (and tests) to retrieve step, HRV, and heart rate data.  Data is saved in csv files and returned as DataFrames.  Requires installation of python-dotenv module (see below).  
+Set of utility functions (and tests) to retrieve step, HRV, and heart rate data.  Data is saved in csv files and returned as DataFrames.  Requires installation of python-dotenv module (see below).  Fitbit Web API documentation can be found at: https://dev.fitbit.com/build/reference/web-api/
 
 **fitbit_dashboard.py:<br>** 
 Streamlit dashboard application that plots step count for a 30-day period and heartrate for a given day.  Requires installation of streamlit module (see below).
