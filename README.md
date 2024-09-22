@@ -54,7 +54,6 @@ https://docs.google.com/document/d/149YtFyO5k26Z9kgkh6el9sO4TRXkhuSMgwgTZ75BOiA/
 
 ![fitbit_data.py output](fitbit_data_screenshot.png)
 
-### Streamlit dashboard
 
 ![30-day step count data from the streamlit app](steps-screenshot.png)
 ![Heartrate data from the streamlit app](HR-screenshot.png)
