@@ -25,27 +25,23 @@ https://docs.google.com/document/d/149YtFyO5k26Z9kgkh6el9sO4TRXkhuSMgwgTZ75BOiA/
 
 **First, download fitbit_data.py, .env, and fitbit_dashboard to the same folder where you previously stored steps.py.**
 
+### Install Python libraries
+In a terminal window, navigate to the project folder where steps.py is stored and activate the Python virtual environment.  Install the following:
+* pip3 install python-dotenv   (pip in Windows)
+* pip3 install streamlit
+* pip3 install matplotlib
+* pip3 install seaborn
+
 ### Running fitbit_data.py:
+
 &nbsp;&nbsp;&nbsp;**Step 1:<br>** 
-&nbsp;&nbsp;&nbsp; Open a terminal window, naviagate to the folder where you previously stored steps.py and activate the Python virtual environment.
-
-&nbsp;&nbsp;&nbsp;**Step 2:<br>** 
-&nbsp;&nbsp;&nbsp;Install python-dotenv by running the following command in the same terminal window: pip3 install python-dotenv (pip in Windows)
-
-&nbsp;&nbsp;&nbsp;**Step 3:<br>** 
 &nbsp;&nbsp;&nbsp;Modify the file .env to include your access token (between quotes).  
 
-&nbsp;&nbsp;&nbsp;**Step 4:<br>** 
+&nbsp;&nbsp;&nbsp;**Step 2:<br>** 
 &nbsp;&nbsp;&nbsp;Run the program by typing the following command in the same terminal window: python3 fitbit_data.py (python in Windows).  Sample output below.  
 
 ### Running fitbit_dashboard.py:
-&nbsp;&nbsp;&nbsp;**Step 1:<br>** 
-&nbsp;&nbsp;&nbsp;Open a terminal window, naviagate to the folder where you previously stored steps.py and activate the Python virtual environment. 
-
 &nbsp;&nbsp;&nbsp;**Step 2:<br>** 
-&nbsp;&nbsp;&nbsp;Install streamlit by typing the following command in the same terminal window: pip3 install streamlit (pip in Windows)
-
-&nbsp;&nbsp;&nbsp;**Step 3:<br>** 
 &nbsp;&nbsp;&nbsp;Run the streamlit application by typing the following command in the same terminal window: streamlit run fitbit_dashboard.py.  This should spawn a web application in your browser that retrieves your step and heartrate data.  See screenshots below.  If prompted to input a value in the terminal window, just hit Enter.  To terminate the streamlit application, hit Ctrl-C in the terminal window.  
 
 ## Screenshots:
