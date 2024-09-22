@@ -26,13 +26,13 @@ https://docs.google.com/document/d/149YtFyO5k26Z9kgkh6el9sO4TRXkhuSMgwgTZ75BOiA/
 **First, download fitbit_data.py, .env, and fitbit_dashboard to the same folder where steps.py is stored.**
 
 ### Running fitbit_data.py:
-**Step 1:<br>** First be sure that the Python virtual environment where your ran steps.py previously is active.  
+&nbsp;&nbsp;&nbsp;**Step 1:<br>** First be sure that the Python virtual environment where your ran steps.py previously is active.  
 
-**Step 2:<br>** Install python-dotenv by running the following command in a terminal window: pip3 install python-dotenv (pip in Windows)
+&nbsp;&nbsp;&nbsp;**Step 2:<br>** Install python-dotenv by running the following command in a terminal window: pip3 install python-dotenv (pip in Windows)
 
-**Step 3:<br>** Modify the file .env to include your access token (between quotes).  
+&nbsp;&nbsp;&nbsp;**Step 3:<br>** Modify the file .env to include your access token (between quotes).  
 
-**Step 4:<br>** Run the program: python3 fitbit_data.py (python in Windows).  Sample output below.  
+&nbsp;&nbsp;&nbsp;**Step 4:<br>** Run the program: python3 fitbit_data.py (python in Windows).  Sample output below.  
 
 ### Running fitbit_dashboard.py:
 **Step 1:<br>** First be sure that the Python virtual environment where your ran steps.py previously is active.
