@@ -41,7 +41,7 @@ In a terminal window, navigate to the project folder where steps.py is stored an
 &nbsp;&nbsp;&nbsp;Run the program by typing the following command in the same terminal window: python3 fitbit_data.py (python in Windows).  Sample output below.  
 
 ### Running fitbit_dashboard.py:
-&nbsp;&nbsp;&nbsp;**Step 2:<br>** 
+
 &nbsp;&nbsp;&nbsp;Run the streamlit application by typing the following command in the same terminal window: streamlit run fitbit_dashboard.py.  This should spawn a web application in your browser that retrieves your step and heartrate data.  See screenshots below.  If prompted to input a value in the terminal window, just hit Enter.  To terminate the streamlit application, hit Ctrl-C in the terminal window.  
 
 ## Screenshots:
