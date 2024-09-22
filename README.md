@@ -13,8 +13,30 @@ A minimal demo app that illustrates how to retrieve step data for a week.  You m
 Set of utility functions (and tests) to retrieve step, HRV, and heart rate data.  Data is saved in csv files and returned as DataFrames.  Requires installation of python-dotenv module (see below).  
 
 **fitbit_dashboard.py:<br>** 
-Streamlit dashboard application that plots step count for a 30-day period and heartrate for a given day.  Requires installation of streamlit module (see below).  
+Streamlit dashboard application that plots step count for a 30-day period and heartrate for a given day.  Requires installation of streamlit module (see below).
+
+**.env:<br>:** 
+This contains an environment defining your access token.  fitbit_data.py reads the access token from this file.  
 
 ## How to run the code:
+This assumes that you have already followed the instructions linked below and are able to successully run steps.py:
+
+https://docs.google.com/document/d/149YtFyO5k26Z9kgkh6el9sO4TRXkhuSMgwgTZ75BOiA/edit?usp=sharing   
 
 Note: The Fitbit API requires Python 3.9.13 or earlier and cherrpy.  Install fitbit and cherrypy as part of a Python virtual environment.  
+
+###Running fitbit_data.py:
+**Step 1:<br>**First be sure that the Python virtual environment where your ran steps.py previously is active.  
+
+**Step 2:<br>** Install python-dotenv by running the following command in a terminal window: pip3 install python-dotenv (pip in Windows)
+
+**Step 3:<br>** Modify the file .env to include your access token (between quotes).  
+
+**Step 4:<br>** Run the program: python3 fitbit_data.py (python in Windows).  Sample output below.  
+
+###Running fitbit_dashboard.py:
+**Step 1:<br>**First be sure that the Python virtual environment where your ran steps.py previously is active.
+
+**Step 2:<br>** Install streamlit by typing the following command in a terminal window: pip3 install streamlit (pip in Windows)
+
+**Step 3:<br>** Run the streamlit application by typing the following command in a terminal window: streamlit run fitbit_dashboard.py.  This should spawn a web application in your browser that retrieves your step and heartrate data.  See screenshots below.  If prompted to input a value in the terminal window, just hit Enter.  To terminate the streamlit application, hit Ctrl-C in the terminal window.  
