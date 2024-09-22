@@ -15,7 +15,7 @@ Set of utility functions (and tests) to retrieve step, HRV, and heart rate data.
 **fitbit_dashboard.py:<br>** 
 Streamlit dashboard application that plots step count for a 30-day period and heartrate for a given day.  Requires installation of streamlit module (see below).
 
-**.env:<br>:** 
+**.env:<br>** 
 This contains an environment defining your access token.  fitbit_data.py reads the access token from this file.  
 
 ## How to run the code:
