@@ -50,4 +50,4 @@ https://docs.google.com/document/d/149YtFyO5k26Z9kgkh6el9sO4TRXkhuSMgwgTZ75BOiA/
 
 ## Screenshots:
 
-![30-day step count data from the streamlit app](myimage.png)
+![30-day step count data from the streamlit app](steps-screenshot.png)
