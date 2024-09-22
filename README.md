@@ -49,3 +49,5 @@ https://docs.google.com/document/d/149YtFyO5k26Z9kgkh6el9sO4TRXkhuSMgwgTZ75BOiA/
 &nbsp;&nbsp;&nbsp;Run the streamlit application by typing the following command in a terminal window: streamlit run fitbit_dashboard.py.  This should spawn a web application in your browser that retrieves your step and heartrate data.  See screenshots below.  If prompted to input a value in the terminal window, just hit Enter.  To terminate the streamlit application, hit Ctrl-C in the terminal window.  
 
 ## Screenshots:
+
+![30-day step count data from the streamlit app](myimage.png)
