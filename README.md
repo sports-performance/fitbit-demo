@@ -8,8 +8,7 @@ This retrieves an access token required to access Fitbit data programmatically. 
 https://dev.fitbit.com/build/reference/web-api/troubleshooting-guide/oauth2-tutorial/ 
 
 **steps.py:**
-
-A minimal demo app that illustrates how to retrieve step data for a week.  You must first modify the ACCESS_TOKEN variable using your access token.
+A minimal demo app that illustrates how to retrieve step data for a week.  You must first update the ACCESS_TOKEN variable.
 
 **fitbit_data.py:**
 
