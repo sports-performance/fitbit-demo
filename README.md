@@ -19,11 +19,11 @@ Streamlit dashboard application that plots step count for a 30-day period and he
 This contains an environment defining your access token.  fitbit_data.py reads the access token from this file.  
 
 ## How to run the code:
-This assumes that you have already followed the instructions linked below and are able to successully run steps.py:
+This assumes that you have already followed the instructions linked below and are able to successully run steps.py. The Fitbit API requires Python 3.9.13 or earlier and cherrpy.  Install fitbit and cherrypy as part of a Python virtual environment as detailed in the instructions:
 
 https://docs.google.com/document/d/149YtFyO5k26Z9kgkh6el9sO4TRXkhuSMgwgTZ75BOiA/edit?usp=sharing   
 
-Note: The Fitbit API requires Python 3.9.13 or earlier and cherrpy.  Install fitbit and cherrypy as part of a Python virtual environment.  
+**First, download fitbit_data.py, .env, and fitbit_dashboard to the same folder where you steps.py is stored.**
 
 ### Running fitbit_data.py:
 **Step 1:<br>** First be sure that the Python virtual environment where your ran steps.py previously is active.  
